@@ -11,7 +11,7 @@ from rest_framework import viewsets, filters
 from movies.serializers import MovieSerializer, GenreSerializer
 
 #models import
-from models import Movie, Genre
+from movies.models import Movie, Genre
 
 # Create your views here.
 

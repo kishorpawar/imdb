@@ -2,7 +2,7 @@
 from rest_framework import serializers
 
 #model imports
-from models import Movie, Genre
+from movies.models import Movie, Genre
 
 class GenreSerializer(serializers.HyperlinkedModelSerializer):
 	class Meta:
