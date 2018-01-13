@@ -8,7 +8,7 @@ from django.shortcuts import render
 from rest_framework import viewsets, filters
 
 #serializers import
-from serializers import MovieSerializer, GenreSerializer
+from movies.serializers import MovieSerializer, GenreSerializer
 
 #models import
 from models import Movie, Genre
